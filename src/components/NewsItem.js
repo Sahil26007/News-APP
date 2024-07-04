@@ -8,7 +8,7 @@ export class NewsItem extends Component {
     return (
       <div>
               <div className="card" >
-              <img src={imageUrl?imageUrl:`https://digitalfinger.id/wp-content/uploads/2019/12/no-image-available-icon-6.png`} className="card-img-top" alt="..."/>
+              <img src={imageUrl?imageUrl:"no_image.png"} className="card-img-top" alt="..."/>
               <div className="card-body">
               <h5 className="card-title">{title}...</h5>
               <p className="card-text">{text}...</p>
